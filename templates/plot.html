@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Z-Score Anomaly Detection</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+    <h3>Data Head</h3>
+    <pre>{{ data_head }}</pre>
+    <h3>Percentage of Anomalies: {{ percentage_anomalies }}</h3>
+    <div id="plot"></div>
+    <script>
+        var plotData = {{ plot|safe }};
+        Plotly.newPlot('plot', plotData.data, plotData.layout);
+    </script>
+</body>
+</html>
