@@ -6,7 +6,7 @@
 
 ## 2. Run the following commands
 
-### Note: Do the port mapping to this port:- 8501
+### Note: Do the port mapping to this port:- 8000
 
 ```bash
 sudo apt update
