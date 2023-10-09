@@ -9,4 +9,4 @@ scipy
 statsmodels
 python-pptx
 streamlit
--e .
+
